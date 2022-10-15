@@ -7,36 +7,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Links: CSS e Icons-->
-    <link rel="icon" sizes="25x25" href="../projeto-nudles/assets/imgs/nudles.png">
+    <!--Links: CSS-->
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/login.css" media="all">
 
-    <link rel="stylesheet" href="../projeto-nudles/CSS/reset.css">
-    <link rel="stylesheet" href="../projeto-nudles/CSS/login.css" media="all">
-
-    <link rel="stylesheet" href="../projeto-nudles/CSS/login-portrait.css" 
+    <link rel="stylesheet" href="/CSS/login-portrait.css" 
     media="screen and (orientation: portrait)"><!--Mobile Retrato-->
 
-    <link rel="stylesheet" href="../projeto-nudles/CSS/login-landscape.css" 
+    <link rel="stylesheet" href="/CSS/login-landscape.css" 
     media="screen and (orientation: landscape)"><!--Modo Paisagem-->
     <!--Style p/ fontes externas-->
     <style>
         @font-face {
             font-family: Music-Warrior; /* Tipografia da Logo */
-            src: url('../projeto-nudles/assets/fonts/Music\ Warrior.ttf')
+            src: url('/assets/fonts/Music\ Warrior.ttf')
             format('truetype');
         }
     </style>
     <!--Scripts-->
-    <script charset="UTF-8" src="../projeto-nudles/JS/interact.js"></script>
-    <script charset="UTF-8" src="../projeto-nudles/JS/forms.js" defer></script>
-
+    <script charset="UTF-8" src="/JS/script.js"></script>
+    
     <title>Login - Nudles</title>
 </head>
 <body>
     <div class="login"><!--Conteúdo do login-->
         <div class="card-front"><!--Card do login-->
             <h2>Faça seu login</h2>
-            <form method="get" class="cadastro" action="../projeto-nudles/JS/forms.js">
+            <form>
                 <div class="forms">
                     <label for="txtnome">Login<br>
                         <input type="email" id="txtnome" name="nome" required>
@@ -65,14 +62,14 @@
                 </div>
             </form>
             <div id="imagem"><!--Decoração para Computadores/Desktop-->
-                <img src="../projeto-nudles/game-content/character.png" class="avatar">
+                <img src="/assets/imgs/character.png" class="avatar">
                 <h3>Nudles</h3>
             </div>
         </div>
     </div>
     <div class="btn-google">
         <a href="#">
-            <img src="../projeto-nudles/assets/imgs/google-btn.svg" class="google" onclick="warn()">
+            <img src="/assets/imgs/google-btn.svg" class="google" onclick="warn()">
         </a>
     </div>
 </body>
