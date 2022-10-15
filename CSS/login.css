@@ -9,10 +9,11 @@ body{
   font-family: Music-Warrior;
   width: 300px;
   height: auto;
-  padding: 2px 2px 2px 2px;
+  padding: 2px;
   border-radius: 15px;
   background-color: #000000cb;
   margin: auto;
+  margin-top: 50px;
   border-radius: 20px;
   position: relative;
 }
