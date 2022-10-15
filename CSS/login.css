@@ -2,7 +2,7 @@
 
 body{
     background-image: linear-gradient(to right, #0000009f, #0000009f),
-    url('../assets/imgs/game-login.png');
+    url('/assets/imgs/game-login.png');
     background-size: cover;
 }
 .login{
