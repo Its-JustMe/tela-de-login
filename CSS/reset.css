@@ -1,0 +1,27 @@
+/*
+    Configurações de RESET
+    NÃO mexer em nada aqui
+*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    list-style: none;
+    color: inherit;
+    font-family: "Arial", sans-serif;
+    vertical-align: baseline;
+    border: 0;
+    line-height: normal;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+html, body{
+    overflow-y: scroll;
+}

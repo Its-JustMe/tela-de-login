@@ -1,0 +1,61 @@
+.login{
+    margin-top: 25%;
+    color: #fff;
+}
+.card-front{
+    text-align: center;
+    padding: 20px;
+    transition: 800ms;
+}
+.card-front h2{
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.forms{
+    text-align: left;
+}
+.forms label{
+    font-size: 18px;
+    width: 49px;
+    height: 21px;
+    font-weight: 700;
+}
+label input{
+    width: 258px;
+    height: 36px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+    background-color: #33323296;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.buttons{
+    margin: auto;
+    width: 182px;
+    margin-bottom: 15px;
+}
+#submit-btn {
+    width: 181px;
+    height: 52px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 12px;
+    border: 1px solid #79797900;
+    background-color: #ffffff00;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+span{
+    font-size: 13px;
+    color: #ececec;
+}
+#imagem{
+    display: none;
+}
