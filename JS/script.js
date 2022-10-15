@@ -1,3 +1,3 @@
 function warn(){
-    window.alert('! ! ! - Conteúdo indisponível neste protótipo - ! ! !');
+    window.alert('! ! ! - Esses botes não funcionam de verdade, bobinho(a) - ! ! !');
 }
