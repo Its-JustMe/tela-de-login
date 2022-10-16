@@ -1,3 +1,3 @@
 function warn(){
-    window.alert('! ! ! - Esses botes não funcionam de verdade, bobinho(a) - ! ! !');
+    window.alert('! ! ! - Esses links não funcionam de verdade, bobinho(a) - ! ! !');
 }
