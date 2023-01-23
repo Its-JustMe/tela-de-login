@@ -3,6 +3,5 @@
 
 ##### Esse pequeno projeto faz parte de um outro projeto maior que estou trabalhando com alguns amigos. Trata-se de uma simples tela de login.
 <ul type="circle">
-  <li> Feito com Media Query
   <li> Página responsiva
 </ul>
